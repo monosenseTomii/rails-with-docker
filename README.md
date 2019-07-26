@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+/////* environment */////
 
-Things you may want to cover:
+* Ruby version 2.6.3
+* Rails 5.2.3
+* Postgres 11.4
+* Redis 5.0.5
 
-* Ruby version
+/////* how to development */////
 
-* System dependencies
+after git clone...
 
-* Configuration
+-1.move project file.
 
-* Database creation
+-2.return this command.
 
-* Database initialization
+sudo bundle install
 
-* How to run the test suite
+-3.create database [rails];
 
-* Services (job queues, cache servers, search engines, etc.)
+※ when you got like this error, it's solution.
 
-* Deployment instructions
-
-* ...
+sudo vim /etc/hosts
+#before
+127.0.0.1       localhost
+↓
+#after
+127.0.0.1       localhost db
