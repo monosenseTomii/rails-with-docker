@@ -29,3 +29,5 @@
 <br>
 
 <%= link_to 'New User', new_user_path %>
+
+<p><%= session[:user_mail] %>/ [<%= link_to 'logout', logout_path %>]</p>
